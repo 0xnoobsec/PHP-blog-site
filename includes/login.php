@@ -2,6 +2,9 @@
 <?php session_start();?>
 <?php
 
+
+//user = User1, Password = 12345678
+
 if(isset($_POST['loginsubmit'])) {
 	// get username and password from inputs
 	$user_uname = mysqli_real_escape_string($con, $_POST['user_uname']);
